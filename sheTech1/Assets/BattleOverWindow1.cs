@@ -24,6 +24,6 @@ public class BattleOverWindow1 : MonoBehaviour
     }
     public static void Show_Static(string winnerString)
     {
-        instance.show(winnerString);
+        instance.show(winnerString); ;
     }
 }
