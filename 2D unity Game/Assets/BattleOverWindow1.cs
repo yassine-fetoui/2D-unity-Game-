@@ -22,8 +22,8 @@ public class BattleOverWindow1 : MonoBehaviour
         gameObject.SetActive(true);
         transform.Find("winnerText (1)").GetComponent<Text>().text = winnerString;
     }
-    public static void Show_Static(string winnerString)
+    public static void Show_Static(string winnerString) 
     {
-        instance.show(winnerString); ;
+        instance.show(winnerString);
     }
 }
